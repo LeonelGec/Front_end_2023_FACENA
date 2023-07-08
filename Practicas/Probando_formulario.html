@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+
+<body>
+    <form action="#" method="post">
+        Nombre
+        <input type="text" name="nombre" minlength="5" maxlength="10" size="15" placeholder="ingrese nombre" required></p>
+        pepe
+        <input type="text" value="pepe" name="nombre" minlength="5"  required></p>
+        <input type="checkbox" value="acepta" name="condiciones" > Si acepto las condiciones <!--</p>--><!-- salto de linea -->
+        <input type="checkbox" value="acepta" name="condiciones" checked="checked"> No acepto las condiciones
+        <!-- <br> --><!-- salto de linea -->
+        <br>
+
+        <p>Sexo:
+            Hombre<input type="radio" name="sexo" value="h">
+            Mujer<input type="radio" name="sexo" value="m">
+        </p>
+        <!-- repetimso lo mismo pero el name es distinto por lo qeu permite seleccionar 
+        ambos ya que no pertenecen al mismo objeto -->
+        <p>Sexo:
+            Hombre<input type="radio" name="sexo1" value="h">
+            Mujer<input type="radio" name="sexo2" value="m">
+        </p>
+
+        <p>Cantidad: <input type="number" name="numero" step="0.1"></p>
+        <p>Cantidad: <input type="number" name="numero" ></p>
+
+        <p>
+        <input type="password" name="pass" placeholder="ingrese clave" required>
+        </p>
+
+        <p> Oculto: <input type="hidden" value="no se puede ver" /> </p>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
