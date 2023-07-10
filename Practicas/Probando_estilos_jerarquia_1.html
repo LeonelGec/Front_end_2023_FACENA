@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      p {
+        color: blue;}
+      div > p > span  {
+        color: yellow;
+      }
+    </style> <!-- div spam (para que todo spam dentro de siv por mas que este dentro de otro p se apllique la accion ,
+                  encambio si colocas div>sapn entonces el span ha de estar si so si directamente dendro de div sin algo de por medio) --> 
+ </head>
+  <body>
+    <h2>Cabecera <span>nivel h2</span></h2>
+
+    <div>Primera <span>división</span></div>
+
+    <div>
+      <p>Párrafo <span>uno</span></p>
+    </div>
+    <p>Párrafo <span>dos</span></p>
+
+  </body>
+</html>
