@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #007bff;
+  background: #34C0DF;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -196,7 +196,7 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
+  color: #34C0DF;
   text-decoration: underline;
 }
 
@@ -211,12 +211,12 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 0 20px 20px 0;
-  color: #df6d21;
+  color: #f1a51fff  ;
 }
 
 #intro .intro-info .btn-get-started {
-  background: #4eafff;
-  border: 2px solid #4eafff;
+  background: #34C0DF;
+  border: 2px solid #34C0DF;
   color: #fff;
 }
 
@@ -274,7 +274,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #4eafff;
+  color: #34C0DF  ;
   text-decoration: none;
 }
 
@@ -538,17 +538,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #34C0DF;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #34C0DF;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #34C0DF;
 }
 
 #about .about-container .icon-box:hover .icon i {
